@@ -45,7 +45,7 @@ export default function ProfileSidebar() {
                 <img src="/applyCost.png" alt="apply" className="rounded w-full" />
                 <button className="bg-[#232735] text-white text-base leading-[1.45] font-bold italic py-5 mb-10 w-full rounded-[10px] cursor-pointer
                 hover:bg-[#111219] hover:border-[#232735] border-2 border-transparent transition">
-                    Apply to add a cast
+                    Apply to add a cost
                 </button>
             </div>
         </aside>
