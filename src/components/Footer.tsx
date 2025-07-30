@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="bg-[#1F232F] py-8">
-            <div className="max-w-[1720px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-white text-sm italic font-medium leading-relaxed">
+            <div className="max-w-[1440px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-white text-sm italic font-medium leading-relaxed">
                 {/* Левая часть */}
                 <div className="max-w-[960px] leading-[1.11] text-base italic font-medium text-white">
                     <p>

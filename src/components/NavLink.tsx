@@ -18,8 +18,8 @@ export default function NavLink({ href, children }: NavLinkProps) {
     <Link
       href={href}
       className={clsx(
-        "px-4 py-2 rounded-full transition",
-        "font-bold italic text-base leading-[0.61]",
+        "font-montserrat w-[120px] text-center py-3 rounded-full transition",
+        "font-bold italic text-[14px] leading-[0.61]",
         isActive ? "bg-white text-black" : "text-white hover:bg-white/10"
       )}
     >
