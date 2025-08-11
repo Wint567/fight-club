@@ -34,7 +34,7 @@ export default function Streamers() {
     <section className="text-white pb-5">
       <h2 className="text-[16px] font-black italic mb-5 mt-5">Streamers</h2>
 
-      <div className="bg-[#1A1D2A] rounded-xl flex flex-col max-h-[603px] gap-2 overflow-y-auto">
+      <div className="bg-[#1A1D2A] rounded-xl flex flex-col max-h-[879px] gap-2 overflow-y-auto">
         {streamers.map((streamer, i) => {
           const bg = i % 2 === 0 ? "bg-[#232735]" : "bg-[#1A1D2A]";
 

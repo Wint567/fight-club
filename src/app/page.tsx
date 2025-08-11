@@ -22,7 +22,7 @@ export default function HomePage() {
           <div className="w-[328px]">
             <LatestTournaments />
             <LiveMatches />
-            <VoteForWinners />
+            {/* <VoteForWinners /> */}
             <Sponsors />
             <FollowUs />
             <Streamers />

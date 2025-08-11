@@ -32,16 +32,18 @@ export default function RatingTable() {
                     <div className="flex justify-between px-10">
                         <div>
                             <span>#</span>
-                            <span className="ml-8">Name</span>
                         </div>
-                        <span>Points</span>
+                        <span className="ml-8">Name</span>
+
+                        {/* <span>Points</span> */}
                     </div>
                     <div className="flex justify-between px-10">
                         <div>
                             <span>#</span>
-                            <span className="ml-8">Name</span>
                         </div>
-                        <span>Points</span>
+                        <span className="ml-8">Name</span>
+
+                        {/* <span>Points</span> */}
                     </div>
                 </div>
 
@@ -55,9 +57,10 @@ export default function RatingTable() {
                             >
                                 <div>
                                     <span>{index + 1}</span>
-                                    <span className="ml-8 truncate">{player.name}</span>
                                 </div>
-                                <span>{player.points}</span>
+                                <span className="ml-8 truncate">{player.name}</span>
+
+                                {/* <span>{player.points}</span> */}
                             </li>
                         ))}
                     </ul>
@@ -70,9 +73,10 @@ export default function RatingTable() {
                             >
                                 <div>
                                     <span>{index + 6}</span>
-                                    <span className="ml-8 truncate">{player.name}</span>
                                 </div>
-                                <span>{player.points}</span>
+                                <span className="ml-8 truncate">{player.name}</span>
+
+                                {/* <span>{player.points}</span> */}
                             </li>
                         ))}
                     </ul>
